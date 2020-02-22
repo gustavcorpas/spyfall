@@ -1,6 +1,7 @@
 @font-face {
   font-family: hero;
   src: url("Hero/HeroLight-Regular.otf");
+  font-display: swap;
 }
 
 .p-loc-var, .p-role-var{
