@@ -1,3 +1,9 @@
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js");
+}
+
+
 var startGameTime = new Date();
 let currentTime = new Date();
 var gameLength = 10;
