@@ -1,5 +1,6 @@
 # spyfall
-just another spyfall game
+just another spyfall game:
+https://gustavcorpas.github.io/spyfall/
 
 ## how to play
 
