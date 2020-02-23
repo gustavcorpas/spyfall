@@ -1,0 +1,22 @@
+{
+	"lang": "en",
+	"name": "Spyfall",
+	"short_name": "Spyfall",
+	"icons": [
+		{
+			"src": "/favicon.png",
+			"type": "image/png",
+			"sizes": "512x512 maskable"
+		},
+		{
+			"src": "/favicon.svg",
+			"type": "image/svg+xml",
+			"sizes": "any maskable"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"theme_color": "#333333",
+	"background_color": "#FFFFFF"
+}
