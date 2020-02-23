@@ -4,18 +4,23 @@
     <meta charset="utf-8">
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <title>Spyfall</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
+
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#333333">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Just another Spyfall game">
+
   </head>
   <body>
 
     <div class="container">
 
 
-      <input type="text" id="nameinput" placeholder="name here.."></input>
+      <input type="text" id="nameinput" aria-label="Player name" placeholder="name here.."></input>
       <div id="top-buttons">
         <button id="new-player">New Player</button>
         <button id="start-game">Start Game</button>
