@@ -3,14 +3,14 @@
 //WARNING: The currentCache ID has to be changed every time the app is updated, otherwise existing users will not recieve the updates
 const currentCache = "cache-20200223";
 const urlsToCache = [
-	"/manifest.json",
-	"/",
-	"/style.css",
+	"manifest.json",
+	"./",
+	"style.css",
 	"https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js",
-	"/script.js",
-	"/favicon.svg",
-	"/favicon.png",
-	"/Hero/HeroLight-Regular.otf"
+	"script.js",
+	"favicon.svg",
+	"favicon.png",
+	"Hero/HeroLight-Regular.otf"
 ];
 
 self.addEventListener("install", (event) => {
